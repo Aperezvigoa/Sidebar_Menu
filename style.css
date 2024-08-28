@@ -187,26 +187,3 @@ input[type="checkbox"] {
     border-top-right-radius: 25px;
     box-shadow: 4px -4px 0 4px var(--bg-color);
 }
-
-input[type="checkbox"]:checked ~ label {
-    color: var(--bg-color);
-    background-color: var(--sidebar-color);
-}
-
-input[type="checkbox"]:checked ~ label::after,
-input[type="checkbox"]:checked ~ label::before {
-    display: none;
-}
-
-.sidebar:has(input[type="checkbox"]:checked) {
-    width: 20wh;
-}
-
-.sidebar:has(input[type="checkbox"]:checked) picture {
-    width: fit-content;
-    margin-left: 12px;
-}
-
-.sidebar:has(input[type="checkbox"]:checked) :is(.sidebar__item a, .sidebar__item span) {
-    display: none;
-}
