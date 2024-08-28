@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <title>SideBarMenu</title>
+</head>
+<body>
+    <aside class="sidebar">
+        <form class="sidebar__form">
+            <input type="checkbox" id="open-menu">
+            <label class="material-symbols-outlined" for="open-menu">Menu</label>
+        </form>
+        <picture class="sidebar__picture">
+            <img src="./Files/logo.png">
+        </picture>
+        <nav class="sidebar__nav">
+            <ul>
+                <li class="sidebar__item">
+                    <span class="material-symbols-outlined">Notifications</span>
+                    <a href="#">Notifications</a>
+                </li>
+                <li class="sidebar__item">
+                    <span class="material-symbols-outlined">Message</span>
+                    <a href="#">Messages</a>
+                </li>
+                <li class="sidebar__item">
+                    <span class="material-symbols-outlined">Shopping_cart</span>
+                    <a href="#">Shop</a>
+                </li>
+                <li class="sidebar__item">
+                    <span class="material-symbols-outlined">account_balance</span>
+                    <a href="#">Balance</a>
+                </li>
+                <li class="sidebar__item">
+                    <span class="material-symbols-outlined">Settings</span>
+                    <a href="#">Settings</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="sidebar__profile">
+            <ul>
+                <li class="sidebar__item item--profile">
+                    <img src="./Files/Michael.jpg">
+                    <span class="profile__option">Profile</span>
+                </li>
+                <li class="sidebar__item">
+                    <span class="material-symbols-outlined"> Logout</span>
+                    <a href="#">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+</body>
+</html>
